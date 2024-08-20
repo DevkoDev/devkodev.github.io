@@ -11,12 +11,9 @@ import ScrollToTop from "./utils/ScrollToTop";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-   
-    
-      <Router>
-    
+    <Router>
       <Container>
-      <Nav />
+        <Nav />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -24,10 +21,7 @@ root.render(
           <Route path="/projects" element={<Projects />} />
         </Routes>
         <Footer />
-        </Container>
-         
-      </Router>
-    
-    
+      </Container>
+    </Router>
   </React.StrictMode>
 );

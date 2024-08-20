@@ -24,7 +24,7 @@ function Projects() {
         <br />
         <Row>
           {filteredProjects.map((project, index) => (
-            <Col xs={12} md={6} lg={4} className="px-4 py-4" key={index}>
+            <Col xs={12} md={6} lg={4} className="px-3 py-3 px-xxl-4 py-xxl-4" key={index}>
               <Card className="w-100 text-start projectCard">
                 <Card.Img variant="top" src={project.preview_image} />
                 <Card.Body>
