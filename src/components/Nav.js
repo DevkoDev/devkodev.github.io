@@ -10,7 +10,7 @@ function NavSection() {
           Devko.dev
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="text-center">
           <Nav className="mx-auto">
             <Nav.Link as={Link} to="/" className="me-2">
               Home

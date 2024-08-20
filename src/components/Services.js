@@ -68,11 +68,11 @@ function Services() {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={12} md={12} lg={9} xl={8} className="p-2">
+          <Col xs={12} sm={12} md={12} lg={8} xl={8} className="p-2">
             <Card className="serviceCard">
               <Card.Body>
                 <Row>
-                  <Col xs={12} sm={12} md={6} lg={9} xl={8}>
+                  <Col xs={12} sm={12} md={6} lg={6} xl={8}>
                     <Card.Title className="text-start">
                       <div className="serviceIcon">
                         <FontAwesomeIcon icon={faImages} />

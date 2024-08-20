@@ -6,7 +6,7 @@ import PfpImage from "../assets/pfp.png";
 function Landing() {
   return (
     <Row className="justify-content-center py-3"id="Home">
-      <Col xs={9} className="justify-content-center text-center landingBackground p-5 mt-5">
+      <Col xs={12} md={9} className="justify-content-center text-center landingBackground p-5 mt-5">
         <img src={PfpImage} alt="Devko" className="mt-5"></img>
         <h1>Devko</h1>
         <h4 className="gloweyText">Full Stack Developer</h4>
