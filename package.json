@@ -2,7 +2,7 @@
   "name": "my-port-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://devkodev.github.io/portfolio/",
+  "homepage": "https://devkodev.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
