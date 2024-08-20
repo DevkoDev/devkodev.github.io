@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2226078a.css",
-    "main.js": "/static/js/main.ad243484.js",
+    "main.css": "/static/css/main.641c7b6d.css",
+    "main.js": "/static/js/main.54da7044.js",
     "static/media/BulliesGenesis.png": "/static/media/BulliesGenesis.cb84294f04c26d064d40.png",
     "static/media/Holiday_8SIAN_Cards.png": "/static/media/Holiday_8SIAN_Cards.72fb760ba8f5d1087274.png",
     "static/media/MetaBeasts.png": "/static/media/MetaBeasts.e656bb44fe21bcbe938c.png",
@@ -96,11 +96,11 @@
     "static/media/0x34b68a85.sol": "/static/media/0x7bea0d18d0e76d778ce5865f70497c8e34b68a85.e9b4ddf66f5261101c8d.sol",
     "static/media/0x0ffd5096.sol": "/static/media/0x70d6b9365f15a2102f590481294332300ffd5096.7ecc56a02b333ea78643.sol",
     "index.html": "/index.html",
-    "main.2226078a.css.map": "/static/css/main.2226078a.css.map",
-    "main.ad243484.js.map": "/static/js/main.ad243484.js.map"
+    "main.641c7b6d.css.map": "/static/css/main.641c7b6d.css.map",
+    "main.54da7044.js.map": "/static/js/main.54da7044.js.map"
   },
   "entrypoints": [
-    "static/css/main.2226078a.css",
-    "static/js/main.ad243484.js"
+    "static/css/main.641c7b6d.css",
+    "static/js/main.54da7044.js"
   ]
 }
