@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.484f3542.css",
-    "main.js": "/static/js/main.ca286ed9.js",
+    "main.js": "/static/js/main.7825a828.js",
     "static/media/BulliesGenesis.png": "/static/media/BulliesGenesis.cb84294f04c26d064d40.png",
     "static/media/Holiday_8SIAN_Cards.png": "/static/media/Holiday_8SIAN_Cards.72fb760ba8f5d1087274.png",
     "static/media/MetaBeasts.png": "/static/media/MetaBeasts.e656bb44fe21bcbe938c.png",
@@ -97,10 +97,10 @@
     "static/media/0x0ffd5096.sol": "/static/media/0x70d6b9365f15a2102f590481294332300ffd5096.7ecc56a02b333ea78643.sol",
     "index.html": "/index.html",
     "main.484f3542.css.map": "/static/css/main.484f3542.css.map",
-    "main.ca286ed9.js.map": "/static/js/main.ca286ed9.js.map"
+    "main.7825a828.js.map": "/static/js/main.7825a828.js.map"
   },
   "entrypoints": [
     "static/css/main.484f3542.css",
-    "static/js/main.ca286ed9.js"
+    "static/js/main.7825a828.js"
   ]
 }
