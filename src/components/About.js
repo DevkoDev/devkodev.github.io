@@ -2,7 +2,7 @@ import { Row, Col, Button } from "react-bootstrap";
 
 function About() {
   return (
-    <Row className="justify-content-center sectionPading" id="About">
+    <Row className="justify-content-center sectionPading" id="section-about">
       <Col xs={12} md={12} lg={12} xl={10} xxl={8} className="justify-content-center text-center">
         <h1>About Me</h1>
         <h6 className="gloweyText boldNoSpacing">Get to know me</h6>

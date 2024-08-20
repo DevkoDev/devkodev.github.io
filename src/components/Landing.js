@@ -5,7 +5,7 @@ import PfpImage from "../assets/pfp.jpg";
 
 function Landing() {
   return (
-    <Row className="justify-content-center py-3"id="Home">
+    <Row className="justify-content-center py-3"id="section-home">
       <Col xs={12} md={8} className="justify-content-center text-center landingBackground p-5 mt-5">
         <img src={PfpImage} alt="Devko" className="mt-5 rounded-circle" style={{maxWidth:"200px"}}></img>
         <h1 className="oleo-script-regular my-1">Devko.dev</h1>

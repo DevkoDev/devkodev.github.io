@@ -6,7 +6,7 @@ import nftGeneration from "../assets/nftGeneration.gif";
 
 function Services() {
   return (
-    <Row className="justify-content-center sectionPading" id="Services">
+    <Row className="justify-content-center sectionPading" id="section-services">
       <Col xs={12} md={12} lg={12} xl={12} xxl={12} className="justify-content-center text-center">
         <h1>What I do</h1>
         <h6 className="gloweyText boldNoSpacing">My services</h6>

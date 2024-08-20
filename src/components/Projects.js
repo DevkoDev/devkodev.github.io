@@ -17,7 +17,7 @@ function Projects() {
   const filteredProjects = projectsData.slice(0, limit);
 
   return (
-    <Row className="justify-content-center sectionPading" id="Projects">
+    <Row className="justify-content-center sectionPading" id="section-projects">
       <Col xs={12} md={12} lg={12} xl={12} xxl={12} className="justify-content-center text-center">
         <h1>Projects</h1>
         <h6 className="gloweyText boldNoSpacing">Some of my work</h6>

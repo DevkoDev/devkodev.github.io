@@ -5,7 +5,7 @@ import { faXTwitter, faDiscord, faGithub } from "@fortawesome/free-brands-svg-ic
 
 function Footer() {
   return (
-    <div className="w-100">
+    <div className="w-100" id="section-contact">
       <div className="d-flex justify-content-center justify-content-md-between align-items-center py-3 flex-column flex-md-row">
         <h1 className="display-4">
           Let's <br className="d-none d-md-block" /> Work Together -
