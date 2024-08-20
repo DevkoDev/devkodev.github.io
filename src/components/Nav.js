@@ -3,10 +3,11 @@ import { Nav, Navbar, Button } from "react-bootstrap";
 import { HashLink as Link } from "react-router-hash-link";
 
 function NavSection() {
+
   return (
-    <Navbar expand="md">
+    <Navbar expand="md" sticky="top" >
       <Container>
-        <Navbar.Brand href="#home" className="oleo-script-regular" style={{ fontSize: "28px" }}>
+        <Navbar.Brand href="#home" className="oleo-script-regular gloweyText" style={{ fontSize: "28px" }}>
           Devko.dev
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

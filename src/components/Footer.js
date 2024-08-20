@@ -32,13 +32,13 @@ function Footer() {
           © 2024 All rights reserved.
         </h6>
         <div className="d-flex justify-content-center align-items-center">
-          <a href="https://twitter.com/devko_dev">
+          <a href="https://twitter.com/devko_dev" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faXTwitter} className="mt-2 mt-md-0 fa-lg mx-2" />
           </a>
-          <a href="https://discord.gg/J8sPTV37P9">
+          <a href="https://discord.gg/J8sPTV37P9" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faDiscord} className="mt-2 mt-md-0 fa-lg mx-2" />
           </a>
-          <a href="https://github.com/DevkoDev">
+          <a href="https://github.com/DevkoDev" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} className="mt-2 mt-md-0 fa-lg mx-2" />
           </a>
         </div>

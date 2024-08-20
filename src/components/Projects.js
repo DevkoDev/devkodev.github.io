@@ -33,22 +33,23 @@ function Projects() {
                     <small className="text-white-50">{project.tags.join(" / ")}</small>
                   </Card.Text>
                   <div className="d-flex  justify-content-center">
-                    <a className="text-black fa-stack fa-lg" href="https://localhost">
+                    {(project.etherscan) ? <a className="text-black fa-stack fa-lg" href={project.etherscan} target="_blank" rel="noreferrer">
                       <FontAwesomeIcon icon={faCircle} className="fa-stack-2x" />
                       <img src=" https://etherscan.io/images/brandassets/etherscan-logo-circle-light.svg" alt="Custom SVG Icon" className="custom-svg fa-stack-1x fa-inverse" />
-                    </a>
-                    <a className="text-black fa-stack fa-lg" href="https://localhost">
+                    </a> : ""}
+                    {(project.website) ? <a className="text-black fa-stack fa-lg" href={project.website} target="_blank" rel="noreferrer">
                       <FontAwesomeIcon icon={faCircle} className="fa-stack-2x" />
                       <FontAwesomeIcon icon={faEarthAmericas} className="fa-stack-1x fa-inverse" />
-                    </a>
-                    <a className="text-black fa-stack fa-lg" href="https://localhost">
+                    </a> : ""}
+
+                    {(project.github) ? <a className="text-black fa-stack fa-lg" href={project.github} target="_blank" rel="noreferrer">
                       <FontAwesomeIcon icon={faCircle} className="fa-stack-2x" />
                       <FontAwesomeIcon icon={faGithub} className="fa-stack-1x fa-inverse" />
-                    </a>
-                    <a className="text-black fa-stack fa-lg" href="https://localhost">
+                    </a> : ""}
+                    {(project.opensea) ? <a className="text-black fa-stack fa-lg" href={project.opensea} target="_blank" rel="noreferrer">
                       <FontAwesomeIcon icon={faCircle} className="fa-stack-2x" />
                       <img src="https://storage.googleapis.com/opensea-static/Logomark/Logomark-Transparent%20White.svg" alt="Custom SVG Icon" className="custom-svg fa-stack-1x fa-inverse" />
-                    </a>
+                    </a> : ""}
                   </div>
                 </Card.Body>
               </Card>

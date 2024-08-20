@@ -1,31 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&display=swap");
+
+
+
+
+:root {
+  --theme-secondary-color: rgb(32 124 136);
+}
+
 .oleo-script-regular {
   font-family: "Oleo Script", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
+nav {
+  background-color: #1a1a1a;
+}
 body {
   background-color: #1a1a1a;
   font-family: "Montserrat";
 }
 
 .contactMeButton {
-  border: 1px solid #4fc3f7;
+  border: 1px solid var(--theme-secondary-color);
   background-color: unset;
   border-radius: 8px;
   font-size: medium;
 }
 
 .contactMeButton:hover {
-  border: 1px solid #4fc3f7;
+  border: 1px solid var(--theme-secondary-color);
   background-color: #6d6d6d42;
 }
 
 .contactMeButton:active {
-  border: 1px solid #4fc3f7 !important;
+  border: 1px solid var(--theme-secondary-color) !important;
   background-color: #6d6d6d42 !important;
 }
+.contactMeButton:focus-visible {
+  border: 1px solid var(--theme-secondary-color) !important;
+  background-color: #080808ad !important;
+  box-shadow:0 0 0 0.25rem #232323b8;
+}
+
 .landingBackground {
   background: linear-gradient(0deg, rgba(26, 26, 26, 0.9) 22%, rgba(26, 26, 26, 0.65) 92%), url(../assets/rec.svg) center;
   background-repeat: no-repeat;
@@ -34,7 +51,7 @@ body {
 }
 
 .gloweyText {
-  background: linear-gradient(to right, rgba(79, 195, 247, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(to right, var(--theme-secondary-color) 0%, rgba(255, 255, 255, 1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -45,20 +62,26 @@ body {
 
 .roundedButton {
   padding: 15px 30px;
-  border: 1px solid #4fc3f7;
+  border: 1px solid var(--theme-secondary-color);
   background-color: unset;
   border-radius: 30px;
   font-size: medium;
 }
 
 .roundedButton:hover {
-  border: 1px solid #4fc3f7;
+  border: 1px solid var(--theme-secondary-color);
   background-color: #6d6d6d42;
 }
 
 .roundedButton:active {
-  border: 1px solid #4fc3f7 !important;
+  border: 1px solid var(--theme-secondary-color) !important;
   background-color: #6d6d6d42 !important;
+}
+
+.roundedButton:focus-visible {
+  border: 1px solid var(--theme-secondary-color) !important;
+  background-color: #080808ad !important;
+  box-shadow:0 0 0 0.25rem #232323b8;
 }
 
 .projectsButton {
@@ -79,6 +102,12 @@ body {
   background-color: #484e53 !important;
 }
 
+.projectsButton:focus-visible {
+  border: 1px solid #484e53 !important;
+  background-color: #080808ad !important;
+  box-shadow:0 0 0 0.25rem #232323b8;
+}
+
 .projectsButton.active {
   border: 1px solid #484e53 !important;
   background-color: #484e53 !important;
@@ -87,6 +116,7 @@ body {
 .projectsButton.active:hover {
   background-color: #212121 !important;
 }
+
 .projectsButton.active:active {
   border: 1px solid #484e53 !important;
   background-color: #484e53 !important;
@@ -126,6 +156,7 @@ p {
   padding: 0px;
   margin: 0px !important;
 }
+
 .serviceCard p {
   font-weight: 300;
 }
@@ -152,6 +183,7 @@ p {
   font-weight: 300;
   min-height: 40px !important;
 }
+
 .viewAllButton {
   padding: 15px 75px;
   border: 1px solid #484e53;
@@ -169,6 +201,11 @@ p {
   border: 1px solid #484e53 !important;
   background-color: #484e53 !important;
 }
+.viewAllButton:focus-visible {
+  border: 1px solid #484e53 !important;
+  background-color: #080808ad !important;
+  box-shadow:0 0 0 0.25rem #232323b8;
+}
 
 .sectionPading {
   padding-top: 100px;
@@ -176,11 +213,14 @@ p {
 }
 
 .custom-svg {
-  position: absolute; /* Position it within the stack */
+  position: absolute;
+  /* Position it within the stack */
   top: 0;
   left: 0;
-  width: 50%; /* Adjust size as needed */
-  height: 50%; /* Adjust size as needed */
+  width: 50%;
+  /* Adjust size as needed */
+  height: 50%;
+  /* Adjust size as needed */
 }
 
 .emailButton {
@@ -198,6 +238,11 @@ p {
 .emailButton:active {
   border: 1px solid #484e53 !important;
   background-color: #484e53 !important;
+}
+.emailButton:focus-visible {
+  border: 1px solid #484e53 !important;
+  background-color: #080808ad !important;
+  box-shadow:0 0 0 0.25rem #232323b8;
 }
 
 a {
