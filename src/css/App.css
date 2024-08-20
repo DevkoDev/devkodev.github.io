@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&display=swap");
 
-
-
-
 :root {
   --theme-secondary-color: rgb(32 124 136);
 }
@@ -40,7 +37,7 @@ body {
 .contactMeButton:focus-visible {
   border: 1px solid var(--theme-secondary-color) !important;
   background-color: #080808ad !important;
-  box-shadow:0 0 0 0.25rem #232323b8;
+  box-shadow: 0 0 0 0.25rem #232323b8;
 }
 
 .landingBackground {
@@ -58,6 +55,13 @@ body {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+}
+
+.navbar-brand {
+  background: linear-gradient(to right, var(--theme-secondary-color) 0%, rgba(255, 255, 255, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .roundedButton {
@@ -81,7 +85,7 @@ body {
 .roundedButton:focus-visible {
   border: 1px solid var(--theme-secondary-color) !important;
   background-color: #080808ad !important;
-  box-shadow:0 0 0 0.25rem #232323b8;
+  box-shadow: 0 0 0 0.25rem #232323b8;
 }
 
 .projectsButton {
@@ -105,7 +109,7 @@ body {
 .projectsButton:focus-visible {
   border: 1px solid #484e53 !important;
   background-color: #080808ad !important;
-  box-shadow:0 0 0 0.25rem #232323b8;
+  box-shadow: 0 0 0 0.25rem #232323b8;
 }
 
 .projectsButton.active {
@@ -204,7 +208,7 @@ p {
 .viewAllButton:focus-visible {
   border: 1px solid #484e53 !important;
   background-color: #080808ad !important;
-  box-shadow:0 0 0 0.25rem #232323b8;
+  box-shadow: 0 0 0 0.25rem #232323b8;
 }
 
 .sectionPading {
@@ -242,10 +246,9 @@ p {
 .emailButton:focus-visible {
   border: 1px solid #484e53 !important;
   background-color: #080808ad !important;
-  box-shadow:0 0 0 0.25rem #232323b8;
+  box-shadow: 0 0 0 0.25rem #232323b8;
 }
 
 a {
   color: unset;
-
 }

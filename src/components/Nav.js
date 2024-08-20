@@ -29,7 +29,7 @@ function NavSection() {
   return (
     <Navbar expand="md" sticky="top">
       <Container>
-        <Navbar.Brand href="#home" className="oleo-script-regular gloweyText" style={{ fontSize: "28px" }}>
+        <Navbar.Brand href="#home" className="oleo-script-regular" style={{ fontSize: "30px" }}>
           Devko.dev
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
